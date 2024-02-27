@@ -5,7 +5,7 @@ from gemini import Document
 import fitz  # PyMuPDF for PDF parsing
 
 # Initialize Gemini (replace with your API key)
-gemini.client(api_key="AIzaSyBOEXRoZeBsnwnKM8TmbdMHjTaEpHpeAbY")
+gemini.client(api_key="")
 
 def extract_text_from_pdf(pdf_file_path):
     with fitz.open(pdf_file_path) as doc:
